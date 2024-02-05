@@ -10,15 +10,15 @@ Welcome to the API Gateway Service! This service acts as an entry point for clie
 
 4. Proxying Requests: Requests to different microservices are proxied based on the route path, ensuring that each request is routed to the appropriate microservice.
 
-# Endpoints
+## Endpoints
 Home: GET /home - A test endpoint to check if the API Gateway Service is running successfully.
 
-# Middlewares
+## Middlewares
 1. Rate Limiting Middleware: Controls the rate of incoming requests using the express-rate-limit middleware.
 
 2. Authentication Middleware: Validates the access token before allowing access to protected resources.
 
-# External Dependencies
+## External Dependencies
 1. http-proxy-middleware: Used for creating proxy middleware to forward requests to other microservices.
 
 2. axios: Used for making HTTP requests to authenticate access tokens with the authentication service.
